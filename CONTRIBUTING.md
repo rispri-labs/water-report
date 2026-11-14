@@ -7,4 +7,4 @@ Thanks for helping. Bug reports with a small input that shows the problem are th
 - Sign off your commits (`git commit -s`). The sign-off says you wrote the change, or have the right to submit it, under the Apache License 2.0 that covers this project.
 - Be kind. Disagree with the code, not the person.
 
-Report security problems privately to security@risprilabs.com rather than in a public issue.
+Report security problems privately to contact@risprilabs.com rather than in a public issue.
