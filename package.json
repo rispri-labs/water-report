@@ -1,0 +1,59 @@
+{
+  "name": "@rispri-labs/water-report",
+  "version": "0.1.0",
+  "description": "Read a drinking water laboratory report against the Indian standard IS 10500: status of each parameter, water type, corrosion and scaling indices, and plain next steps.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "author": "Rispri Labs",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "npm run build && node --test",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rispri-labs/water-report.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rispri-labs/water-report/issues"
+  },
+  "homepage": "https://github.com/rispri-labs/water-report#readme",
+  "keywords": [
+    "is-10500",
+    "bis",
+    "drinking-water",
+    "water-quality",
+    "india",
+    "water",
+    "wastewater",
+    "water-treatment"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@rispri-labs/water-chemistry": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "typescript": "~5.9.3"
+  }
+}
